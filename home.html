@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1 class="brawl">Brawl stars news</h1>    
+<div id="sidebar">
+    <a href="developer.html">Про розробника</a>
+    <hr>
+    <a href="#">Телеграм канал</a>
+</div>
+<div>
+<h2 class="brawl">Top News</h2>    
+</div>
+<div class="news">
+<p class="top-title">Перша новина</p>
+<p><a class=description>Нове хелоувінське оновлення вже у грі!</a></p>
+<p align = right><a href="new1.html"><button>Read</button></a></p>
+</div>
+</div>
+<div class="news">
+<p class="top-title">Друга новина</p>
+<p><a class=description>Покращення мачмейкінгу</a></p>
+<p align = right><a href="new2.html"><button>Read</button></a></p>
+</div> 
+</div>
+<div class="news">
+<p class="top-title">Третя новина</p>
+<p><a class=description>Новий бокс</a></p>
+<p align = right><a href="new3.html"><button>Read</button></a></p>
+</div>
+<div id="toggle-btn">sidebar</div>
+<script>
+const sidebar = document.getElementById("sidebar")
+const toggleBtn = document.getElementById("toggle-btn")
+toggleBtn.addEventListener("click", () =>{
+sidebar.classList.toggle ("open")
+});
+
+</script>  
+</body>
+</html>
