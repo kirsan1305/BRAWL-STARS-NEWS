@@ -80,5 +80,14 @@ body{
 #sidebar hr{
     align-self: flex-start;
 }
-
+#developer{
+    background-image: url(hq720.jpg);
+    color: rgb(64, 255, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#style_d{
+    font-size: 45px ;
+    text-align: center;
+}
     
